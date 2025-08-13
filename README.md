@@ -8,13 +8,13 @@ const clearLoginForm = () => {
     <div className="login-container">
       <div className="restaurant-hero">
         <div className="hero-content">
-          <h1>🍽️ Restaurante Gourmet</h1>
+          <h1>🍽️ Restaurante LA CARRETA</h1>
           <p>Sistema de Gestión Profesional</p>
         </div>
       </div>
       
       <div className="login-form-container">
-        <form onSubmit={handleLogin} className="login-form">
+        <form onSubmit={handlELogin} className="login-form">
           <h2>Iniciar Sesión</h2>
           
           <div className="form-group">
